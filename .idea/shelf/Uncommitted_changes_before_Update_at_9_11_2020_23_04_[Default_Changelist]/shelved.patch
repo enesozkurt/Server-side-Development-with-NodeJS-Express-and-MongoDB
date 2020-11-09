@@ -1,0 +1,109 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"VcsDirectoryMappings\">\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(revision 86f63757aef7371b0415be4e2c6b9ae7b6c0bd80)
++++ .idea/vcs.xml	(date 1604945731758)
+@@ -2,5 +2,6 @@
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+     <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/node-http" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: node-express/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- node-express/.gitignore	(date 1604947856352)
++++ node-express/.gitignore	(date 1604947856352)
+@@ -0,0 +1,1 @@
++node_modules
+Index: node-express/index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- node-express/index.js	(date 1604948574005)
++++ node-express/index.js	(date 1604948574005)
+@@ -0,0 +1,20 @@
++const express = require('express');
++const http = require('http');
++
++const hostname = 'localhost';
++const port = 3000;
++
++const app = express();
++
++app.use((req, res, next) => {
++   console.log(req.headers);
++   res.statusCode = 200;
++   res.setHeader('Content-Type', 'text/html');
++   res.end('<html lang="en"><body><h1>This is an Express Server</h1></body></html>')
++});
++
++const server = http.createServer(app);
++
++server.listen(port, hostname, () => {
++    console.log(`Server running at http://${hostname}:${port}`)
++})
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"22388cfe-b392-4528-8cc7-ee832cb81c2d\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/index.js\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/package.json\" beforeDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1jsvi2TJL3sY2Uq1DuvDNryG02i\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"javascript.nodejs.core.library.configured.version\" value=\"10.19.0\" />\n    <property name=\"javascript.nodejs.core.library.typings.version\" value=\"\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/node-http\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"nodejs_interpreter_path\" value=\"node\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"22388cfe-b392-4528-8cc7-ee832cb81c2d\" name=\"Default Changelist\" comment=\"\" />\n      <created>1604605736601</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1604605736601</updated>\n      <workItem from=\"1604605737650\" duration=\"306000\" />\n      <workItem from=\"1604606044816\" duration=\"1297000\" />\n      <workItem from=\"1604607344268\" duration=\"399000\" />\n      <workItem from=\"1604608241149\" duration=\"1068000\" />\n      <workItem from=\"1604645228606\" duration=\"18000\" />\n      <workItem from=\"1604747582187\" duration=\"4887000\" />\n      <workItem from=\"1604759904881\" duration=\"127000\" />\n      <workItem from=\"1604760032653\" duration=\"252000\" />\n      <workItem from=\"1604760438568\" duration=\"601000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"779\" y=\"311\" width=\"424\" height=\"491\" key=\"FileChooserDialogImpl\" timestamp=\"1604761037950\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state x=\"779\" y=\"311\" width=\"424\" height=\"491\" key=\"FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053\" timestamp=\"1604761037950\" />\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1604761038885\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053\" timestamp=\"1604761038885\" />\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.center\" timestamp=\"1604761038885\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053\" timestamp=\"1604761038885\" />\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.left\" timestamp=\"1604761038884\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053\" timestamp=\"1604761038884\" />\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.right\" timestamp=\"1604761038885\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state width=\"1825\" height=\"275\" key=\"GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053\" timestamp=\"1604761038885\" />\n    <state x=\"591\" y=\"289\" width=\"800\" height=\"535\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1604608313213\">\n      <screen x=\"72\" y=\"27\" width=\"1848\" height=\"1053\" />\n    </state>\n    <state x=\"591\" y=\"289\" width=\"800\" height=\"535\" key=\"Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053\" timestamp=\"1604608313213\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 86f63757aef7371b0415be4e2c6b9ae7b6c0bd80)
++++ .idea/workspace.xml	(date 1604952268905)
+@@ -20,10 +20,14 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="22388cfe-b392-4528-8cc7-ee832cb81c2d" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/node-express/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/node-express/index.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/node-http/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node-http/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/node-http/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node-http/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/node-http/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-http/index.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/node-http/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node-http/package.json" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -39,8 +43,10 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="ROOT_SYNC" value="DONT_SYNC" />
+   </component>
+   <component name="ProjectId" id="1jsvi2TJL3sY2Uq1DuvDNryG02i" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -50,7 +56,7 @@
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
+     <property name="javascript.nodejs.core.library.typings.version" value="" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node-http" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="node.js.detected.package.eslint" value="true" />
+     <property name="node.js.detected.package.tslint" value="true" />
+     <property name="node.js.path.for.package.eslint" value="project" />
+@@ -78,6 +84,7 @@
+       <workItem from="1604759904881" duration="127000" />
+       <workItem from="1604760032653" duration="252000" />
+       <workItem from="1604760438568" duration="601000" />
++      <workItem from="1604945521394" duration="4071000" />
+     </task>
+     <servers />
+   </component>

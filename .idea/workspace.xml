@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22388cfe-b392-4528-8cc7-ee832cb81c2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/node-express/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-express/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node-http/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node-http/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node-http/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node-http/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node-http/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-http/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node-http/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node-http/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +43,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1jsvi2TJL3sY2Uq1DuvDNryG02i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node-http" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,6 +84,7 @@
       <workItem from="1604759904881" duration="127000" />
       <workItem from="1604760032653" duration="252000" />
       <workItem from="1604760438568" duration="601000" />
+      <workItem from="1604945521394" duration="4071000" />
     </task>
     <servers />
   </component>
