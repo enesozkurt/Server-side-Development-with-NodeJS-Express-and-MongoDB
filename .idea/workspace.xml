@@ -23,10 +23,10 @@
       <change afterPath="$PROJECT_DIR$/node-express/routes/dishRouter.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node-express/routes/leaderRouter.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node-express/routes/promoRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node-mongo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node-express/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-express/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node-mongo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-mongo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node-mongo/operations.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-mongo/operations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/conFusionServer" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1jsvi2TJL3sY2Uq1DuvDNryG02i" />
@@ -53,6 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -87,7 +88,10 @@
       <workItem from="1604996279399" duration="24000" />
       <workItem from="1605028846225" duration="9344000" />
       <workItem from="1605077520304" duration="16000" />
-      <workItem from="1605199899734" duration="3425000" />
+      <workItem from="1605199899734" duration="3565000" />
+      <workItem from="1605250161165" duration="18000" />
+      <workItem from="1605295182889" duration="5226000" />
+      <workItem from="1605362938176" duration="7470000" />
     </task>
     <servers />
   </component>
@@ -111,10 +115,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="694" y="355" width="594" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605040634091" />
-    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605077534489">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605250176420">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605077534489" />
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605250176420" />
     <state width="1825" height="275" key="GridCell.Tab.0.bottom" timestamp="1604761038885">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -131,10 +135,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1825" height="275" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1604761038885" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605034534018">
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605370779839">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605034534018" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605370779839" />
     <state x="660" y="252" key="run.anything.popup" timestamp="1605040606947">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
