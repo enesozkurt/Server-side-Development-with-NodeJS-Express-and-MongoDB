@@ -25,8 +25,6 @@
       <change afterPath="$PROJECT_DIR$/node-express/routes/promoRouter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node-express/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-express/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node-mongo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-mongo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node-mongo/operations.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-mongo/operations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,8 @@
       <workItem from="1605199899734" duration="3565000" />
       <workItem from="1605250161165" duration="18000" />
       <workItem from="1605295182889" duration="5226000" />
-      <workItem from="1605362938176" duration="7470000" />
+      <workItem from="1605362938176" duration="7746000" />
+      <workItem from="1605432124622" duration="6484000" />
     </task>
     <servers />
   </component>
@@ -135,10 +134,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1825" height="275" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1604761038885" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605370779839">
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605388361463">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605370779839" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605388361463" />
     <state x="660" y="252" key="run.anything.popup" timestamp="1605040606947">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
