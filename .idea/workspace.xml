@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22388cfe-b392-4528-8cc7-ee832cb81c2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/conFusionServer/authenticate.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/conFusionServer/models/leaders.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/conFusionServer/models/promotions.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/conFusionServer/models/user.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node-express/routes/dishRouter.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node-express/routes/leaderRouter.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node-express/routes/promoRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_11_2020_23_04_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_11_2020_23_04__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node-express/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-express/index.js" afterDir="false" />
     </list>
@@ -101,7 +100,7 @@
       <workItem from="1605595980280" duration="33000" />
       <workItem from="1605640619120" duration="2769000" />
       <workItem from="1605682276345" duration="15000" />
-      <workItem from="1605721553984" duration="3795000" />
+      <workItem from="1605721553984" duration="7123000" />
     </task>
     <servers />
   </component>
@@ -145,10 +144,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1825" height="275" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1604761038885" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605473192006">
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605727963538">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605473192006" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605727963538" />
     <state x="660" y="252" key="run.anything.popup" timestamp="1605040606947">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
